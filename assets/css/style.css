@@ -1,5 +1,5 @@
 .bc-black{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 .bc-red{
     background-color: rgb(250, 121, 86 ,1);
@@ -24,16 +24,23 @@
     }
 
 .syle-cartas{
-    background-color: rgb(55, 43, 43);
+    background-color: rgb(255, 255, 255);
     width: 18rem;
     margin: 20px;
     cursor: pointer;
+    transition: all .3s ease-in-out;
 } 
     .syle-cartas:hover{
 
-        background-color: rgb(81, 26, 26);
+        background-color: rgba(192, 192, 192, 0.342);
+        transition: all .3s ease-in-out;
         height: 130%S;
+        
     }
+
+.syle-cartas:active{
+    transform: scale(110%);
+}    
 
 .imagen{
     border-radius: 100%;
