@@ -2,19 +2,22 @@
     background-color: black;
 }
 .bc-red{
-    background-color: rgb(208, 6, 6);
+    background-color: rgb(250, 121, 86 ,1);
 }
 .text-white{
     color: white;
 }
 
 .nav-style {
-    color: black; 
+    color: white; 
+    margin: 4px;
     text-decoration: none; 
     }
     .nav-style:hover {
-      color: white;
-      font-size: 102%;
+      
+      color:darkseagreen;
+      
+      
     }
     .nav-style:active {
       background-color: orange; 
