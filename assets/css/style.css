@@ -1,0 +1,33 @@
+.bc-black{
+    background-color: black;
+}
+.bc-red{
+    background-color: rgb(208, 6, 6);
+}
+.text-white{
+    color: white;
+}
+
+.nav-style {
+    color: black; 
+    text-decoration: none; 
+    }
+    .nav-style:hover {
+      color: white;
+      font-size: 102%;
+    }
+    .nav-style:active {
+      background-color: orange; 
+    }
+
+.syle-cartas{
+    background-color: rgb(55, 43, 43);
+    width: 18rem;
+    margin: 20px;
+    cursor: pointer;
+} 
+    .syle-cartas:hover{
+
+        background-color: rgb(81, 26, 26);
+        height: 130%S;
+    }
