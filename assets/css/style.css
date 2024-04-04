@@ -18,6 +18,12 @@
     display: flex;
     justify-content: center;
 }
+.sacar-puntos{
+    list-style: none;
+}
+.sacar-decoracion{
+    text-decoration-line: none;
+}
 
 .nav-style {
     color: white; 
