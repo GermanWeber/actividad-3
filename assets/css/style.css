@@ -56,3 +56,13 @@
 .imagen{
     border-radius: 100%;
 }
+
+.footer{
+    background-color: rgb(250, 121, 86 ,1);
+}
+
+.lista-footer a{
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
