@@ -4,8 +4,19 @@
 .bc-red{
     background-color: rgb(250, 121, 86 ,1);
 }
-.text-white{
+.bc-verde{
+    background-color: rgb(139, 200, 166);
+}
+.texto-blanco{
     color: white;
+}
+.texto-negro{
+    color: black;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
 }
 
 .nav-style {
