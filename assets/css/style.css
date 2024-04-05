@@ -37,6 +37,19 @@
     text-transform: uppercase;   
 }
 
+.contenedor-imagen-texto {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .texto-encima {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 .centrar{
     display: flex;
     justify-content: center;
@@ -97,6 +110,12 @@
 
 .imagen{
     border-radius: 45%;
+}
+.imagen-fondo-gato{
+    display: flex;
+    justify-content: center;
+    background-image: url("");
+    width: 108rem;
 }
 
 .footer{
