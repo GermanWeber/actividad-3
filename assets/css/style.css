@@ -6,49 +6,13 @@
 }
 .bc-verde{
     background-color: rgb(139, 200, 166);
-   
 }
-.bc-vino{
-    background-color: rgb(178, 19, 19);
-
-} 
-.texto-vino{
-    color: rgb(178, 19, 19);;
-}    
 .texto-blanco{
     color: white;
 }
 .texto-negro{
     color: black;
 }
-.texto-naranjo{
-    color: rgb(250, 121, 86 ,1);
-}
-
-.padding-xxl{
-    padding-top: 50px;
-    padding-bottom: 300px;
-}
-
-.letras-carrusel{
-    
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 400%;
-    text-transform: uppercase;   
-}
-
-.contenedor-imagen-texto {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-  
-  .texto-encima {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
 
 .centrar{
     display: flex;
@@ -61,34 +25,25 @@
     text-decoration-line: none;
 }
 
+.nav-style li{
+    list-style: none;
+}
+
 .nav-style {
+
     color: white; 
     margin: 4px;
     text-decoration: none; 
     }
-    .nav-style:hover {    
-      color:darkseagreen;    
+    .nav-style:hover {
+      
+      color:darkseagreen;
+      
+      
     }
     .nav-style:active {
       background-color: orange; 
     }
-
-.syle-cartas-adopcion{
-    background-color: rgb(255, 255, 255);
-    width: 18rem;
-    margin: 20px;
-    cursor: pointer;
-    transition: all .3s ease-in-out;
-} 
-    .syle-cartas-adopcion:hover{
-
-        background-color:  rgb(250, 121, 86 ,1);
-        transition: all .3s ease-in-out;
-        height: 130%;      
-    }
-    .syle-cartas-adopcion:active{
-        transform: scale(110%);
-    }     
 
 .syle-cartas{
     background-color: rgb(255, 255, 255);
@@ -101,21 +56,16 @@
 
         background-color: rgba(192, 192, 192, 0.342);
         transition: all .3s ease-in-out;
-        height: 130%S;     
+        height: 130%S;
+        
     }
 
-    .syle-cartas:active{
-        transform: scale(110%);
-    }    
+.syle-cartas:active{
+    transform: scale(110%);
+}    
 
 .imagen{
-    border-radius: 45%;
-}
-.imagen-fondo-gato{
-    display: flex;
-    justify-content: center;
-    background-image: url("");
-    width: 108rem;
+    border-radius: 100%;
 }
 
 .footer{
@@ -130,4 +80,13 @@
     text-decoration: none;
     color: white;
     text-decoration: underline;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
