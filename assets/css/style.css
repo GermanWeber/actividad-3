@@ -7,6 +7,30 @@
 .bc-verde{
     background-color: rgb(139, 200, 166);
 }
+.bc-vino{
+    background-color: rgb(161, 4, 4);
+}
+
+.texto-vino{
+    color: rgb(161, 4, 4);
+}
+
+.contenedor-imagen-texto {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .texto-encima {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.padding-xxl{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
 .texto-blanco{
     color: white;
 }
@@ -60,9 +84,28 @@
         
     }
 
-.syle-cartas:active{
-    transform: scale(110%);
-}    
+    .syle-cartas:active{
+        transform: scale(110%);
+    }   
+    
+.syle-cartas-adopcion{
+    background-color: rgb(255, 255, 255);
+    width: 18rem;
+    margin: 20px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+} 
+    .syle-cartas-adopcion:hover{
+
+        background-color: rgba(250, 121, 86 ,1);
+        transition: all .3s ease-in-out;
+        height: 130%S;
+        
+    }
+
+    .syle-cartas-adopcion:active{
+        transform: scale(110%);
+    }      
 
 .imagen{
     border-radius: 100%;
@@ -90,3 +133,13 @@ a{
     text-decoration: none;
     color: black;
 }
+
+.letras-carrusel {
+    font-size: 5rem;
+}
+
+.texto-naranjo {
+    color: rgb(221, 83, 45) ;
+    
+}
+
